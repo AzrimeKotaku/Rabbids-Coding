@@ -1,4 +1,4 @@
 class ControllableObject{
     public :
-        void Controll();
+        virtual void Interact() = 0;
 };
